@@ -1,0 +1,10 @@
+.form-product{
+    display:flex;
+    flex-direction: column;
+    background-color:#F1F1F1;
+    color:#343a40;
+    gap: 15px;
+    padding:20px;
+    border-radius:10px;
+    max-width:600px;
+}
