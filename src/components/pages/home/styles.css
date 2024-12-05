@@ -93,6 +93,7 @@
 .icon-button {
   display: flex;
   justify-content: center;
+  background-color: transparent;
   align-items: center;
   width: 40px;
   height: 40px;
