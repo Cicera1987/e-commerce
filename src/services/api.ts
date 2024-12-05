@@ -31,3 +31,12 @@ export const deleteProduct = async (id: string) => {
 export const updateProduct = async (id: string, updatedProduct: ProductProps) => {
     return await api.put(`/products/${id}`, updatedProduct);
 };
+
+export const postContact = async (contact: {
+    name: string;
+    description: string;
+}) => {
+    const response = await api.post("contact", contact);
+
+    return response.data
+}

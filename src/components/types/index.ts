@@ -5,3 +5,9 @@ export interface ProductProps {
     description: string;
     photo_url: string;
 }
+export interface ContactProps {
+    id: string;
+    name: string;
+    description: string;
+}
+

@@ -168,5 +168,12 @@
       "description": "Descrição do Produto 25",
       "photo_url": "https://media.istockphoto.com/id/1251694108/pt/foto/scandinavian-concept-of-living-room-interior-with-design-sofa-coffee-table-plant-in-pot.jpg?s=612x612&w=0&k=20&c=2uIH84ir6GsRZshF1vYfQftFqpgpmSEUzA7CJ7rSCKw="
     }
-  ]
+  ],
+  
+  "contacts":[{
+    "id":"2555222",
+    "name":"Marcelo Araujo",
+    "description":"Preciso fazer uma reclamação"
+  }]
+
 }
