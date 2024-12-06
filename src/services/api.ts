@@ -32,12 +32,12 @@ export const updateProduct = async (id: string, updatedProduct: ProductProps) =>
     return await api.put(`/products/${id}`, updatedProduct);
 };
 
-export const postContact = async (contact: {
+export const postContact = async (contacts: {
     name: string;
     email:string;
     description: string;
 }) => {
-    const response = await api.post("/contacts", contact);
+    const response = await api.post("/contacts", contacts);
 
     return response.data
 }
