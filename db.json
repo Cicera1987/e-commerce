@@ -30,9 +30,9 @@
     },
     {
       "id": "hfnnuff2555",
-      "name": "Produto 6",
-      "price": 69.99,
-      "description": "Descrição do Produto 6",
+      "name": "Sofa",
+      "price": 1900,
+      "description": "Sofa para sala",
       "photo_url": "https://media.istockphoto.com/id/1222192160/pt/foto/black-couple-moving-sofa-in-living-room-replacing-furniture-at-home.jpg?s=612x612&w=0&k=20&c=XHvzb12qAsSTBIuDELSPROfMvoBqfH4p2QgalVPZauc="
     },
     {
@@ -162,18 +162,25 @@
       "photo_url": "https://media.istockphoto.com/id/1367399805/pt/foto/furniture-sofa-puf-chair.jpg?s=612x612&w=0&k=20&c=KUZx77JPYSaelmiL-eJp4rYsYvo6IfEqTEFPrBUGl7A="
     },
     {
-      "id": 22,
+      "id": "22",
       "name": "Produto 25",
       "price": 259.99,
       "description": "Descrição do Produto 25",
       "photo_url": "https://media.istockphoto.com/id/1251694108/pt/foto/scandinavian-concept-of-living-room-interior-with-design-sofa-coffee-table-plant-in-pot.jpg?s=612x612&w=0&k=20&c=2uIH84ir6GsRZshF1vYfQftFqpgpmSEUzA7CJ7rSCKw="
+    },
+    {
+      "id": "8491",
+      "name": "Geladeira",
+      "price": 4900,
+      "description": "Geradeira inverter",
+      "photo_url": "https://media.istockphoto.com/id/1419096365/pt/foto/modern-stainless-fridge-refrigerator-freezer-on-a-gray-background-mockup-layout-banner-3d.jpg?s=1024x1024&w=is&k=20&c=qMjU9Wa5kBQToqBYHbdfgFv4kNQ7gOELUPDQLSDENjU="
     }
   ],
-  
-  "contacts":[{
-    "id":"2555222",
-    "name":"Marcelo Araujo",
-    "description":"Preciso fazer uma reclamação"
-  }]
-
+  "contacts": [
+    {
+      "id": "2555222",
+      "name": "Marcelo Araujo",
+      "description": "Preciso fazer uma reclamação"
+    }
+  ]
 }

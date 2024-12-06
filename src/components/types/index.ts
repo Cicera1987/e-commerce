@@ -8,6 +8,7 @@ export interface ProductProps {
 export interface ContactProps {
     id: string;
     name: string;
+    email: string;
     description: string;
 }
 

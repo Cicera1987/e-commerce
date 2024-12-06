@@ -34,9 +34,14 @@ export const updateProduct = async (id: string, updatedProduct: ProductProps) =>
 
 export const postContact = async (contact: {
     name: string;
+    email:string;
     description: string;
 }) => {
-    const response = await api.post("contact", contact);
+    const response = await api.post("/contacts", contact);
 
+    return response.data
+}
+export const getContact = async () => {
+    const response = await api.get("/contacts")
     return response.data
 }

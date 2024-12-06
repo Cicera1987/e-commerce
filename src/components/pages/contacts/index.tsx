@@ -22,8 +22,19 @@ function Contacts() {
                   {...register("name", { required: "Campo obrigatório" })}
                   id="productName"
                   type="text"
+                  placeholder="Infome seu nome"
                 />
                 {errors.name && <p>{errors.name.message}</p>}
+              </div>
+              <div>
+                <label htmlFor="email">Email</label>
+                <input
+                  {...register("email", { required: "Campo obrigatório" })}
+                  id="productEmail"
+                  type="email"
+                  placeholder="Infome seu e-mail de contato"
+                />
+                {errors.email && <p>{errors.email.message}</p>}
               </div>
               <div>
                 <label htmlFor="message">Descrição</label>
